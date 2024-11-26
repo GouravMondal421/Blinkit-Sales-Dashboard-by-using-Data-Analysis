@@ -1,75 +1,68 @@
-## blinkit Analysis
+## Objective of the Project
+The purpose of this dashboard seems to be:
 
-BUSINESS REQUIREMENT
-
-Chart's Requirements
-
-1. Total Sales by Fat Content:
-
-Objective: Analyze the impact of fat content on total sales.
-
-Additional KPI Metrics: Assess how other KPIs (Average Sales, Number of Items, Average Rating) vary with fat content.
-
-Chart Type: Donut Chart.
-
-2. Total Sales by Item Type:
-
-Objective: Identify the performance of different item types in terms of total sales.
-
-Additional KPI Metrics: Assess how other KPIs (Average Sales, Number of Items, Average Rating) vary with fat content.
-
-Chart Type: Bar Chart.
-
-3. Fat Content by Outlet for Total Sales:
-
-Objective: Compare total sales across different outlets segmented by fat content.
-
-Additional KPI Metrics: Assess how other KPIs (Average Sales, Number of Items, Average Rating) vary with fat content.
-
-Chart Type: Stacked Column Chart.
-
-4. Total Sales by Outlet Establishment:
-
-Objective: Evaluate how the age or type of outlet establishment influences total sales.
-
-Chart Type: Line Chart.
-blinkit Analysis
-
-BUSINESS REQUIREMENT
-
-To conduct a comprehensive analysis of Blinkit's sales performance, customer satisfaction, and inventory distribution to identify key insights and opportunities for optimization using various KPIs and visualizations in Power BI.
-
-KPI's Requirements
-
-1. Total Sales: The overall revenue generated from all items sold.
-
-2. Average Sales: The average revenue per sale.
-
-3. Number of Items: The total count of different items sold.
-
-4. Average Rating: The average customer rating for items sold
-blinkit Analysis
-
-STEPS IN PROJECT
-
-✓ Requirement Gathering/ Business Requirements
-
-✓ Data Walkthrough
-
-✓ Data Connection
-
-✓ Data Cleaning / Quality Check
-
-✓ Data Modeling
-
-✓ Data Processing
-
-✓ DAX Calculations
-
-✓ Dashboard Lay outing
-
-✓ Charts Development and Formatting
-
-✓ Dashboard / Report Development
-
-✓ Insights Generation
+Sales Analysis:
+Understanding total and average sales performance across various dimensions.
+Customer Insights:
+Evaluating customer satisfaction through average ratings.
+Product Insights:
+Analyzing the performance of product categories by sales and item fat content.
+Regional Trends:
+Examining sales performance by outlet location (Tier 1, Tier 2, Tier 3).
+Trend Analysis:
+Observing sales trends over time (outlet establishment years).
+Data Used
+Sales Data:
+Total sales, average sales, sales trends over years.
+Product Data:
+Item type (e.g., Meat, Household, Dairy), fat content (Low Fat, Regular).
+Customer Feedback:
+Average rating per item or category.
+Outlet Data:
+Outlet location (Tier classification) and establishment year.
+Inventory Data:
+Number of items sold.
+## Key Performance Indicators (KPIs)
+Total Sales: $1.20M
+Average Sales per transaction: $141
+Number of Items Sold: 8,523
+Average Customer Rating: 3.9
+Sales Trends by Year: Historical sales patterns over 2012–2022.
+Category-wise Insights:
+Sales and number of items by product type.
+Contribution of regular and low-fat products.
+Questions Addressed
+Sales Analysis:
+Which year had the highest sales?
+How do Tier 1, Tier 2, and Tier 3 locations compare in sales performance?
+Product Performance:
+Which product types drive the highest sales?
+What is the impact of fat content on sales?
+Customer Satisfaction:
+Which product categories have the best customer ratings?
+Regional Performance:
+How do sales vary across outlet tiers (Tier 1, 2, 3)?
+Trends:
+Are sales improving, declining, or stable over the years?
+## Data Processing
+Data Cleaning:
+Removing duplicates or erroneous entries.
+Handling missing values in sales, ratings, or product details.
+Data Aggregation:
+Grouping sales data by year, outlet tier, item type, and fat content.
+Data Transformation:
+Calculating KPIs like total sales, average sales, and average rating.
+Visualization:
+Using bar charts, line graphs, and pie charts to represent insights.
+## Final Conclusion
+Steady Growth: Sales showed fluctuations but peaked in 2018 at $205K.
+Category Performance:
+Regular fat content items dominate sales with 64.6% contribution.
+Dairy and Fruits perform well in terms of sales and customer ratings.
+Regional Insights:
+Tier 2 locations lead sales, followed by Tier 3 and Tier 1.
+Customer Satisfaction:
+Average rating is 3.9, indicating room for improvement in customer experience.
+Focus Areas:
+Explore strategies to boost sales in Tier 1 cities.
+Improve product offerings in low-performing categories.
